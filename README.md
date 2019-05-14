@@ -48,15 +48,3 @@ Or using Gradle Wrapper
     Run test as the following
     ./gradlew test
     
-## How to Use
-1. For options to Press or Select 1, 2, or 3, the 'Enter' key need to be pressed after the selected key to register the selection.
-2. After the searching or viewing all fields, a user will be asked to choose options again.
-    This action is recursive until the user Type 'quit'.
-
-## Assumptions
-1. User is related to Organization through organization_id
-2. User is related to Tickets through submitter_id
-3. Organization is related to User through _id as organization_id
-4. Organization is related to Tickets through _id as organization_id
-5. Ticket is related to User through submitter_id as id in User
-6. Ticket is related to Organization through organization_id as _id in Organization
